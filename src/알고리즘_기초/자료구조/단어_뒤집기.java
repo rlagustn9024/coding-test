@@ -35,4 +35,24 @@ public class 단어_뒤집기 {
         }
         System.out.print(sb);
     }
+
+    /**
+     * 더 빠른 풀이
+     * */
+    public static void main2(String[] args) throws IOException{
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        StringBuilder result = new StringBuilder();
+
+        int n = Integer.parseInt(br.readLine());
+        for(int i=0;i<n;i++){
+            String[] words = br.readLine().split(" ");
+
+            for(String word:words){
+                StringBuilder sb= new StringBuilder(word);
+                result.append(sb.reverse().append(" "));
+            }
+            result.append("\n");
+        }
+        System.out.print(result);
+    }
 }
