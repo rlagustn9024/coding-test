@@ -3,6 +3,9 @@ package 알고리즘_기초.자료구조;
 import java.io.*;
 import java.util.*;
 
+/**
+ * 백준 10828번 문제
+ * */
 public class 스택 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
