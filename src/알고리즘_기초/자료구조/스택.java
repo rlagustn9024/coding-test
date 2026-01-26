@@ -1,7 +1,11 @@
-import java.io.*;
-import java.util.*;
+package 알고리즘_기초.자료구조;
 
-public class Main {
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.Stack;
+
+public class 스택 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int N = Integer.parseInt(br.readLine()); // 명령의 수 N
