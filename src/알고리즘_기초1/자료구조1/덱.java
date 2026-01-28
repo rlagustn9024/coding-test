@@ -1,4 +1,4 @@
-package 알고리즘_기초.자료구조;
+package 알고리즘_기초1.자료구조1;
 
 import java.util.*;
 import java.io.*;
